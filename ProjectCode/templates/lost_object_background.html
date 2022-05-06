@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="static/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="static/assets/img/lflogo.jpg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Reporting a Lost Object
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link href="static/assets/css/material-kit.css?v=2.0.5" rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+  <link href="static/assets/demo/demo.css" rel="stylesheet" />
+</head>
+
+<body class="landing-page sidebar-collapse">
+  
+  <!-- <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://demos.creative-tim.com/material-kit/index.html">
+          Lost And Found </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="dropdown nav-item">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+              <i class="material-icons">apps</i> Components
+            </a>
+            <div class="dropdown-menu dropdown-with-icons">
+              <a href="static/index.html" class="dropdown-item">
+                <i class="material-icons">layers</i> All Components
+              </a>
+              <a href="https://demos.creative-tim.com/material-kit/docs/2.1/getting-started/introduction.html" class="dropdown-item">
+                <i class="material-icons">content_paste</i> Documentation
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="material-icons">cloud_download</i> Download
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank" data-original-title="Follow us on Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank" data-original-title="Like us on Facebook">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank" data-original-title="Follow us on Instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <nav class="navbar navbar-inverse navbar-expand-lg bg-dark" role="navigation-demo">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-translate">
+                <a class="navbar-brand" href="/home">
+            <div class="logo-image">
+            <img src="static/assets/img/lflogo.jpg" height="50px" width="50px" style="margin-bottom: 20px">
+            </div>
+        </a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a href="#pablo" class="nav-link">
+                      Discover
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#pablo" class="nav-link">
+                      Wishlist
+                    </a>
+                  </li>
+                  
+                  <li class="dropdown nav-item">
+                    <a href="#pablo" class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
+                      <div class="profile-photo-small">
+                        <img src="static/assets/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                      </div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <h6 class="dropdown-header">Dropdown header</h6>
+                      <a href="#pablo" class="dropdown-item">Me</a>
+                      <a href="#pablo" class="dropdown-item">Settings and other stuff</a>
+                      <a href="/logout" class="dropdown-item">Sign out</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-->
+          </nav>
+
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('static/assets/img/profile_city.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title">Report a Lost Object</h1>
+          <h4>Every lost object must be described in great detail. These details will help identify the characteristics of the object and will help in verification of the object when compared with the image.</h4>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+      <div class="section text-center">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h2 class="title">Let&apos;s Talk Lost Object</h2>
+            <h5 class="description">Fill in the details of the object below. You can even upload or generate images of the objects. These images will help for faster and more accurate identification if the object is found.</h5>
+          </div>
+        </div>
+        <div class="features">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-success">
+                  <i class="material-icons">devices_other</i>
+                </div><br>
+                <button class="btn btn-round" data-toggle="modal" data-target="#ObjectDetailsModal">
+                    Enter Object Details
+                </button><br><br>
+                <p>Provide the object details that will best describe the object. These charcateristics will help to verify the object once similar visual objects have been found.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-info">
+                  <i class="material-icons">collections</i>
+                </div><br>
+                <button class="btn btn-round" data-toggle="modal" data-target="#uploadImageModal">
+                    Upload Image
+                </button><br><br>
+                <p>Use this option if you possess images of the object which has been lost. Simply chose the files from your gallery and get started. We would recommend generating images even if some previous images have been uploaded.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="info">
+                <div class="icon icon-success">
+                  <i class="material-icons">image</i>
+                </div><br>
+                <button class="btn btn-round" data-toggle="modal" data-target="#generateImageModal">
+                    Generate Image
+                </button><br><br>
+                <p>Provide a simple text description of the objects to help us generate high resolution images of the objects. Such an image will remove any misinterpretation of the object and will help in accurate identification of the object.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- ObjectDetailsModal -->
+  <div class="modal fade" id="ObjectDetailsModal" tabindex="-1" role="">
+    <div class="modal-dialog modal-login" role="document">
+        <div class="modal-content">
+            <div class="card card-signup card-plain">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    <form class="form" method="" action="">
+                        <p class="description text-center">Old School Details</p>
+                        <div class="card-body">
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">branding_watermark</i></div>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="Brand...">
+                                </div>
+                            </div>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">color_lens</i></div>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="Colour...">
+                                </div>
+                            </div>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">devices</i></div>
+                                  </div>
+                                  <select style="width: 385px; border-top: none; border-right: none; border-left: none; border-color: grey; text-decoration-color: gainsboro; ">
+                                      <option value="" disabled selected>Select your option...</option>
+                                      <option value="Gadget">Gadget</option>
+                                      <option value="Stationery Object">Stationery Object</option>
+                                  </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">panorama_vertical</i></div>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="Height (in cm)...">
+                                </div>
+                            </div>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">panorama_horizontal</i></div>
+                                  </div>
+                                  <input type="text" class="form-control" placeholder="Width (in cm)...">
+                                </div>
+                            </div>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">description</i></div>
+                                  </div>
+                                  <input type="text" placeholder="Identification marks..." class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal" style="margin-right: 20px;">Close</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- UploadImageModal -->
+<div class="modal fade" id="uploadImageModal" tabindex="-1" role="dialog" aria-labelledby="uploadImageModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="uploadImageModalLabel">Upload your Image</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input id="file-input" type="file" multiple><br><br>
+        <div id="preview"></div><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" style="margin-right: 20px;">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Multiple Images Javascript -->
+<script type="text/javascript">
+  function previewImages() 
+  {
+    var preview = document.querySelector('#preview');  
+    if (this.files) 
+    {
+      [].forEach.call(this.files, readAndPreview);
+    }
+
+    function readAndPreview(file) 
+    {
+      // Make sure `file.name` matches our extensions criteria
+      if (!/\.(jpe?g|png|gif)$/i.test(file.name)) 
+      {
+        return alert(file.name + " is not an image");
+      } // else...
+      
+      var reader = new FileReader();
+      reader.addEventListener("load", function() 
+      {
+        var image = new Image();
+        image.height = 100;
+        image.width = 100;
+        image.hspace = 5;
+        image.vspace = 5;
+        image.title  = file.name;
+        image.src    = this.result;
+        preview.appendChild(image);
+      }, false);
+    
+      reader.readAsDataURL(file);  
+  }
+}
+
+document.querySelector('#file-input').addEventListener("change", previewImages, false);
+</script>
+
+<!-- GenerateImageModal -->
+<div class="modal fade" id="generateImageModal" tabindex="-1" role="">
+    <div class="modal-dialog modal-login" role="document">
+        <div class="modal-content">
+            <div class="card card-signup card-plain">
+                <div class="modal-header">
+                </div>
+                <div class="modal-body">
+                    <form class="form" method="" action="">
+                        <p class="description text-center">Generate your Image</p>
+                        <div class="card-body">
+                            <div class="form-group bmd-form-group">
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <div class="input-group-text"><i class="material-icons">description</i></div>
+                                  </div>
+                                  <textarea rows="4" cols="50" placeholder="Enter the text description of the object..." style="overflow-y: scroll;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal" style="margin-right: 20px;">Close</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+  <!--   Core JS Files   -->
+  <script src="static/assets/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="static/assets/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="static/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+  <script src="static/assets/js/plugins/moment.min.js"></script>
+  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+  <script src="static/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+  <script src="static/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <!--  Google Maps Plugin    -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+  <script src="static/assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+</body>
+
+</html>
